@@ -138,7 +138,7 @@ def get_competitor_agent(api_key: str, model: str):
 # fruits & vegetables branding.
 FRUIT_COLORS = ["#4c9a2a", "#f4a261", "#e63946", "#ffd166", "#8e7cc3", "#2a9d8f"]
 
-st.set_page_config(page_title="GreenGo Dashboard", page_icon="🍓", layout="wide")
+st.set_page_config(page_title="GreenGo Dashboard", page_icon="🍉", layout="wide")
 
 # GreenGo brand styling: warm, fruity gradient background (cream -> peach ->
 # leafy green) instead of flat white, echoing the fresh-produce feel of
