@@ -221,6 +221,14 @@ st.markdown(
     hr {
         border-color: #e0d0a8;
     }
+    /* Hide Streamlit's own chrome (hamburger menu, "Made with Streamlit"
+       footer, top header bar) for a cleaner public-facing look. Note: this
+       does NOT hide the "created by" avatar badge in the bottom-right corner
+       on Streamlit Community Cloud - that's injected by the hosting platform
+       itself, outside the app, and can't be removed from app code. */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True,
