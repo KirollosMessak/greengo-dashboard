@@ -260,7 +260,7 @@ def style_fig(fig):
     return fig
 
 
-st.title("🍓 GreenGo Dashboard")
+st.title("🫐🍓 GreenGo Dashboard")
 st.caption("Sales, products & KPIs for GreenGo Store - Alexandria")
 
 if "session_id" not in st.session_state:
