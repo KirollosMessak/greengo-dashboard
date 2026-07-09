@@ -221,6 +221,16 @@ st.markdown(
     hr {
         border-color: #e0d0a8;
     }
+    /* Backtick-wrapped inline code (e.g. `openai/gpt-oss-120b`, tool names in
+       assistant replies) defaults to a dark chip that looks like a redaction
+       box against the light theme. Restyle it to match the fruity palette. */
+    code {
+        background-color: #eaf5e0 !important;
+        color: #2f5233 !important;
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid #cfe0c5;
+    }
     /* Hide Streamlit's own chrome (hamburger menu, "Made with Streamlit"
        footer, top header bar) for a cleaner public-facing look. Note: this
        does NOT hide the "created by" avatar badge in the bottom-right corner
